@@ -14,4 +14,8 @@ Once you've got the prerequsites installed, you can use the transcribe.py file i
 python3 transcribe.py
 ```
 
-If you have files in another format, you can either update the script or use ffmpeg -i filename.wav filename.mp3 to convert.
+If you have files in another format, you can either update the script or convert using: 
+
+```wsl
+ffmpeg -i filename.wav filename.mp3
+```
