@@ -1,6 +1,6 @@
 This repo holds a sample script that allows you to transcribe all the MP3 files in the specified directory into text using OpenAI's Whisper tool
 
-To set up your Windows Subsystem for Linux distribution (assuming the default Ubuntu installation with wsl.exe --install) run the following commands
+To set up your Windows Subsystem for Linux distribution (assuming the default Ubuntu installation with wsl.exe --install) run the following commands (which install the necessary python bits, the openai whisper bits, and the ffmpeg transcoding software)
 
 ```wsl.exe
 - sudo apt install python3-pip
